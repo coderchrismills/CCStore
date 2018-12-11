@@ -8,12 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		832A189721BF7BB900097593 /* CCStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 832A189521BF7BB900097593 /* CCStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		832A189E21BF7BE400097593 /* CCStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832A189D21BF7BE400097593 /* CCStore.swift */; };
+		832A18A021BF7C0800097593 /* SKProduct+LocalizedPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832A189F21BF7C0800097593 /* SKProduct+LocalizedPrice.swift */; };
+		832A18A221BF7CB500097593 /* CCStore+SKPaymentTransactionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832A18A121BF7CB500097593 /* CCStore+SKPaymentTransactionObserver.swift */; };
+		832A18A421BF7CFC00097593 /* CCStore+SKProductRequestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832A18A321BF7CFC00097593 /* CCStore+SKProductRequestDelegate.swift */; };
+		832A18A621BF7E3900097593 /* CCStoreProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832A18A521BF7E3900097593 /* CCStoreProduct.swift */; };
+		832A18A821BF86E800097593 /* CCStoreConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832A18A721BF86E800097593 /* CCStoreConstants.swift */; };
+		832A18AC21BF8DEF00097593 /* CCStore+Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832A18AB21BF8DEF00097593 /* CCStore+Transaction.swift */; };
+		832A18B121BF91A200097593 /* SKDownload+Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832A18B021BF91A200097593 /* SKDownload+Deprecated.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		832A189221BF7BB900097593 /* CCStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		832A189521BF7BB900097593 /* CCStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCStore.h; sourceTree = "<group>"; };
 		832A189621BF7BB900097593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		832A189D21BF7BE400097593 /* CCStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCStore.swift; sourceTree = "<group>"; };
+		832A189F21BF7C0800097593 /* SKProduct+LocalizedPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKProduct+LocalizedPrice.swift"; sourceTree = "<group>"; };
+		832A18A121BF7CB500097593 /* CCStore+SKPaymentTransactionObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CCStore+SKPaymentTransactionObserver.swift"; sourceTree = "<group>"; };
+		832A18A321BF7CFC00097593 /* CCStore+SKProductRequestDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CCStore+SKProductRequestDelegate.swift"; sourceTree = "<group>"; };
+		832A18A521BF7E3900097593 /* CCStoreProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCStoreProduct.swift; sourceTree = "<group>"; };
+		832A18A721BF86E800097593 /* CCStoreConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCStoreConstants.swift; sourceTree = "<group>"; };
+		832A18AB21BF8DEF00097593 /* CCStore+Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CCStore+Transaction.swift"; sourceTree = "<group>"; };
+		832A18B021BF91A200097593 /* SKDownload+Deprecated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKDownload+Deprecated.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +64,14 @@
 			children = (
 				832A189521BF7BB900097593 /* CCStore.h */,
 				832A189621BF7BB900097593 /* Info.plist */,
+				832A189D21BF7BE400097593 /* CCStore.swift */,
+				832A18AB21BF8DEF00097593 /* CCStore+Transaction.swift */,
+				832A18A121BF7CB500097593 /* CCStore+SKPaymentTransactionObserver.swift */,
+				832A18A321BF7CFC00097593 /* CCStore+SKProductRequestDelegate.swift */,
+				832A18A521BF7E3900097593 /* CCStoreProduct.swift */,
+				832A18A721BF86E800097593 /* CCStoreConstants.swift */,
+				832A189F21BF7C0800097593 /* SKProduct+LocalizedPrice.swift */,
+				832A18B021BF91A200097593 /* SKDownload+Deprecated.swift */,
 			);
 			path = CCStore;
 			sourceTree = "<group>";
@@ -95,6 +119,7 @@
 				TargetAttributes = {
 					832A189121BF7BB900097593 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -130,6 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				832A18B121BF91A200097593 /* SKDownload+Deprecated.swift in Sources */,
+				832A189E21BF7BE400097593 /* CCStore.swift in Sources */,
+				832A18A821BF86E800097593 /* CCStoreConstants.swift in Sources */,
+				832A18A621BF7E3900097593 /* CCStoreProduct.swift in Sources */,
+				832A18A221BF7CB500097593 /* CCStore+SKPaymentTransactionObserver.swift in Sources */,
+				832A18A421BF7CFC00097593 /* CCStore+SKProductRequestDelegate.swift in Sources */,
+				832A18AC21BF8DEF00097593 /* CCStore+Transaction.swift in Sources */,
+				832A18A021BF7C0800097593 /* SKProduct+LocalizedPrice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +294,7 @@
 		832A189B21BF7BB900097593 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -270,6 +304,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CCStore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -278,6 +313,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.coderchrismills.CCStore;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,6 +322,7 @@
 		832A189C21BF7BB900097593 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -295,6 +332,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CCStore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
